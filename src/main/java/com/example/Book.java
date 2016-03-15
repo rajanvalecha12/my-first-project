@@ -13,6 +13,7 @@ public class Book {
 	private String bookName;
 	@Value("350.00")
 	private double price;
+	
 	@Autowired
 	private Author author;
 
